@@ -34,6 +34,7 @@ App({
     })
   },
   globalData: {
+    //以下内容请换成自己的
     as: "BSl6moOOMZFaVWOgkMnpT3f4mTqoYN",//AccessKey Secret
     productKey: "a11FdVlIx0W",
     deviceName: "device",
