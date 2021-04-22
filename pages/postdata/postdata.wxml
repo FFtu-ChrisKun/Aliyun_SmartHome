@@ -1,0 +1,61 @@
+<!--pages/postdata/postdata.wxml-->
+<view class="page">
+	<view class="weui-cells weui-cells_after-title">
+		<view class="weui-cell ">
+			<view class="weui-cell__hd">
+				<view class="weui-label">温度</view>
+			</view>
+			<view class="weui-cell__bd">
+				<input class="weui-input" placeholder="请输入温度(单位：°C)" bindinput="Changetemperature" />
+			</view>
+		</view>
+		<view class="weui-cell ">
+			<view class="weui-cell__hd">
+				<view class="weui-label">湿度</view>
+			</view>
+			<view class="weui-cell__bd">
+				<input class="weui-input" placeholder="请输入湿度(单位：%)" bindinput="Changehumidity" />
+			</view>
+		</view>
+		<view class="weui-cell ">
+			<view class="weui-cell__hd">
+				<view class="weui-label">光照</view>
+			</view>
+			<view class="weui-cell__bd">
+				<input class="weui-input" placeholder="请输入光照强度(单位：Lux)"bindinput="ChangeLightLux" />
+			</view>
+		</view>
+		<view class="weui-cell ">
+			<view class="weui-cell__hd">
+				<view class="weui-label">二氧化碳</view>
+			</view>
+			<view class="weui-cell__bd">
+				<input class="weui-input" placeholder="请输入二氧化碳浓度(单位：%)" bindinput="Changeco2"/>
+			</view>
+		</view>
+		<view class="weui-cell ">
+			<view class="weui-cell__hd">
+				<view class="weui-label">PM2.5</view>
+			</view>
+			<view class="weui-cell__bd">
+				<input class="weui-input" placeholder="请输入PM2.5浓度(单位：μg/m³)" bindinput="Changepm2_5" />
+			</view>
+		</view>
+		<view class="weui-cell ">
+			<view class="weui-cell__hd">
+				<view class="weui-label">噪声</view>
+			</view>
+			<view class="weui-cell__bd">
+				<input class="weui-input" placeholder="请输入噪声强度(单位dB)"  bindinput="ChangeSoundDecibelValue" />
+			</view>
+		</view>
+	</view>
+	<view class="button">
+		<view class="button1">
+			<button class="weui-btn" type="primary" bindtap="SubmitData">提交数据</button>
+		</view>
+		<view class="button1">
+			<button class="weui-btn" type="primary" bindtap="RandomData">随机数据</button>
+		</view>
+	</view>
+</view>

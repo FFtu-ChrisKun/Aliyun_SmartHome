@@ -1,0 +1,28 @@
+/* pages/index/index.wxss */
+page {
+  background: -webkit-linear-gradient(top, #a0f0b4, white);
+}
+
+
+.subheading {
+  color: rgb(128, 128, 128);
+  margin: 20rpx;
+}
+
+.main-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ledinfo-avatar {
+  width: 135rpx;
+  height: 135rpx;
+  margin: 20rpx;
+}
+
+.button{
+  display: flex;
+  margin-top:20rpx;
+  background-color: deepskyblue;
+}

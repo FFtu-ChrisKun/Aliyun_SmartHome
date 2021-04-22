@@ -1,0 +1,13 @@
+/* pages/postdata/postdata.wxss */
+
+.button{
+  display: flex;
+  margin-top:30rpx;
+  width:100%;
+  margin-left: 10rpx;
+}
+
+.button1{
+  margin-right: 15rpx;
+  width:49%;
+}
